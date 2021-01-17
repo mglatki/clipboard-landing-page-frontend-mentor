@@ -4,6 +4,18 @@
     padding: 0;
 }
 
+body {
+    font-size: 18px;
+}
+
+header img {
+    display: block;
+}
+
+.buttons_section {
+    display: flex;
+}
+
 .attribution {
     display: none;
 }

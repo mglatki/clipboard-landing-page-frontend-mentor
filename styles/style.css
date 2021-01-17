@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+html {
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+}
+
 body {
     font-size: 16px;
     font-family: 'Bai Jamjuree', sans-serif;
@@ -13,7 +18,7 @@ body {
 header {
     display: grid;
     place-items: center;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 header img {
@@ -40,10 +45,12 @@ h1, h2, h3, p {
 .buttons_section button {
     color: white;
     border: none;
-    border-radius: 1rem 1rem 1rem 1rem;
+    border-radius: 1.5rem;
     margin: 1em 0;
     min-width: 20rem;
-    height: 2rem;
+    height: 3rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: bold;
 }
 .ios_button {
     background-color: green;

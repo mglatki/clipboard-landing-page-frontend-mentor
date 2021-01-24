@@ -87,7 +87,7 @@ section img {
 }
 
 .keep_track__sidecolumn > .keep_track__tile {
-    margin: 14rem 0;
+    
 }
 
 .keep_track__sidecolumn h3 {
@@ -95,7 +95,11 @@ section img {
 }
 
 #computer_image {
+    max-width: 800px;
+}
 
+.devices_image {
+    margin-top: 4rem;
 }
 
 .attribution {

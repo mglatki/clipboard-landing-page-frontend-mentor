@@ -126,12 +126,16 @@ section img {
 
 .supercharge_tiles {
     margin: 4rem 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .supercharge_tiles > tile {
     display: grid;
     place-items: center;
-    margin: 2rem 0;
+    margin: 2rem 1rem;
+
+    flex: 1 1 15em;
 }
 
 .supercharge__section img {

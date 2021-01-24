@@ -12,7 +12,7 @@ html {
 body {
     font-size: 16px;
     font-family: 'Bai Jamjuree', sans-serif;
-    margin: 0 1rem;
+    margin: 0 1.5rem;
 }
 
 header {
@@ -50,7 +50,7 @@ h1, h2, h3, p {
     
     
     margin: 1em 0;
-    min-width: 20rem;
+    min-width: 18rem;
     height: 3rem;
 
     color: white;
@@ -68,6 +68,34 @@ h1, h2, h3, p {
 .mac_button {
     background-color: rgb(0, 102, 255);
     box-shadow: 0px 5px 0px 0px blue; 
+}
+
+section {
+    margin: 5rem 0;
+}
+
+section h2 {
+    margin: 1rem 0;
+}
+
+section img {
+    width: 100%;
+}
+
+.computer_and_sidecolumn__section {
+    margin: 4rem 0;
+}
+
+.keep_track__sidecolumn > .keep_track__tile {
+    margin: 14rem 0;
+}
+
+.keep_track__sidecolumn h3 {
+    margin: 1rem 0;
+}
+
+#computer_image {
+
 }
 
 .attribution {

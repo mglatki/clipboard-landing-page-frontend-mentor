@@ -72,9 +72,21 @@ p {
     box-shadow: 0px 5px 0px 0px hsl(171, 66%, 30%); 
 }
 
+.ios_button:active {
+    margin-top: calc( 1rem + 5px);
+    margin-bottom: calc( 1rem - 5px);
+    box-shadow: 0px 0px 0px 0px hsl(171, 66%, 30%); 
+}
+
 .mac_button {
     background-color: hsl(233, 100%, 69%);
     box-shadow: 0px 5px 0px 0px hsl(233, 50%, 50%); 
+}
+
+.mac_button:active {
+    margin-top: calc( 1rem + 5px);
+    margin-bottom: calc( 1rem - 5px);
+    box-shadow: 0px 0px 0px 0px hsl(233, 50%, 50%); 
 }
 
 section {

@@ -104,6 +104,25 @@ section img {
     margin-top: 4rem;
 }
 
+.supercharge_tiles {
+    margin: 4rem 0;
+}
+
+.supercharge_tiles > tile {
+    display: grid;
+    place-items: center;
+    margin: 2rem 0;
+}
+
+.supercharge__section img {
+    max-width: 50px;
+    margin: 2rem;
+}
+
+.supercharge_tiles h3 {
+    margin: 1rem 0;
+}
+
 .attribution {
     display: none;
 }

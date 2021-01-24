@@ -123,6 +123,16 @@ section img {
     margin: 1rem 0;
 }
 
+.companies__section {
+    display: grid;
+    place-items: center;
+}
+
+.companies__section img {
+    max-width: 150px;
+    margin: 2rem 0;
+}
+
 .attribution {
     display: none;
 }

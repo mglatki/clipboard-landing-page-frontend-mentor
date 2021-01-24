@@ -116,11 +116,11 @@ section img {
     margin: 1rem 0;
 }
 
-#computer_image {
+#computer_image, #devices_image {
     max-width: 800px;
 }
 
-.devices_image {
+#devices_image {
     margin-top: 4rem;
 }
 

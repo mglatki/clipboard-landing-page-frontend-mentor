@@ -109,10 +109,7 @@ section img {
     margin: 4rem 0;
     display: flex;
     flex-wrap: wrap;
-}
-
-.keep_track__sidecolumn > .keep_track__tile {
-    
+    justify-content: space-around;
 }
 
 .keep_track__sidecolumn h3 {

@@ -199,3 +199,41 @@ footer {
 .attribution {
     display: none;
 }
+
+@media (min-width:990px) {
+
+    header, section {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .computer_and_sidecolumn__section {
+        justify-content: center;        
+    }
+
+    #computer_image {
+        margin-left: -300px;
+    }
+
+    .keep_track__sidecolumn {
+        margin-left: 4rem;
+        max-width: 40%;
+    }
+
+    footer {
+        padding: 0 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .footer_references {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer_references a + a {
+        margin-left: 4rem;
+    }
+} 

@@ -133,6 +133,38 @@ section img {
     margin: 2rem 0;
 }
 
+footer {
+    background-color: lightgray;
+    display: grid;
+    place-items: center;
+}
+
+#footer_logo {
+    max-width: 50px;
+    margin: 3rem;
+}
+
+.footer_references {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.footer_references a {
+    text-align: center;
+    font-size: 1.1rem;
+    color: hsl(210, 10%, 33%);
+    text-decoration: none;
+    margin: 1rem 0;
+}
+
+.footer_social_services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 3rem 0;
+    place-items: center;
+    width: clamp(100px,80%,300px);
+}
+
 .attribution {
     display: none;
 }

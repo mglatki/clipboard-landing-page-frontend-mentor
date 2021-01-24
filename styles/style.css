@@ -184,6 +184,10 @@ footer {
     text-decoration: none;
 }
 
+.footer_references a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
 .footer_social_services {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

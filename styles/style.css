@@ -196,6 +196,14 @@ footer {
     width: clamp(100px,80%,300px);
 }
 
+.footer_social_services:hover {
+    cursor: pointer;
+}
+
+.fb_icon:hover, .ig_icon:hover, .tt_icon:hover {
+    filter: invert(69%) sepia(23%) saturate(1374%) hue-rotate(120deg) brightness(87%) contrast(78%);
+}
+
 .attribution {
     display: none;
 }

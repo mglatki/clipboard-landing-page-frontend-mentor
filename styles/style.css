@@ -42,6 +42,7 @@ h1, h2, h3 {
 p {
     color: hsl(201, 11%, 66%);
     max-width: 500px;
+    line-height: 2;
 }
 
 .buttons_section {
@@ -225,8 +226,21 @@ footer {
     }
 
     .keep_track__sidecolumn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
         margin-left: 4rem;
         max-width: 40%;
+        height: inherit;
+    }
+
+    .keep_track__sidecolumn > tile {
+        margin-top: 2rem;
+    }
+
+    .keep_track__sidecolumn h3, .keep_track__sidecolumn p {
+        text-align: start;
     }
 
     footer {
